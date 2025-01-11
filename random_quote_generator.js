@@ -11,3 +11,14 @@ document.getElementById('generateQuote').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById('quote').textContent = quotes[randomIndex];
 });
+
+document.getElementById('addQuoteButton').addEventListener('click', function() {
+    const newQuote = document.getElementById('newQuote').value;
+    if (newQuote) {
+        quotes.push(newQuote);
+        document.getElementById('newQuote').value = ''; // Clear the input field
+        alert('New quote added!');
+    } else {
+        alert('Please enter a quote.');
+    }
+});
