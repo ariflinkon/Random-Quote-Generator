@@ -4,7 +4,11 @@ const quotes = [
     "Your time is limited, so don't waste it living someone else's life. - Steve Jobs",
     "If life were predictable it would cease to be life, and be without flavor. - Eleanor Roosevelt",
     "If you look at what you have in life, you'll always have more. - Oprah Winfrey",
-    "Life is what happens when you're busy making other plans. - John Lennon"
+    "Life is what happens when you're busy making other plans. - John Lennon",
+    "The purpose of our lives is to be happy. - Dalai Lama",
+    "Get busy living or get busy dying. - Stephen King",
+    "You have within you right now, everything you need to deal with whatever the world can throw at you. - Brian Tracy",
+    "Believe you can and you're halfway there. - Theodore Roosevelt"
 ];
 
 document.getElementById('generateQuote').addEventListener('click', function() {
